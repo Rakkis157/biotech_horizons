@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "mi_biotech:blue_algae"
+    }
+  },
+  "result": {
+    "item": "mi_biotech:blue_algae_block"
+  }
+}

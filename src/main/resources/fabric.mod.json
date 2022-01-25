@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mi_biotech",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Modern Industrialization: Biotech",
+  "description": "Adds biotechnology to Modern Industrialization.",
   "authors": [
-    "Me!"
+    "Rakkis157"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Rakkis157/mi_biotech"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mi_biotech/miblogo.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "rakkis157.mi_biotech.MIBiotech"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mi_biotech.mixins.json"
   ],
 
   "depends": {

@@ -1,0 +1,13 @@
+{
+
+  "block.mi_biotech.blue_algae_block": "Blue Algae Block",
+  "block.mi_biotech.brown_algae_block": "Brown Algae Block",
+  "block.mi_biotech.green_algae_block": "Green Algae Block",
+  "block.mi_biotech.phosphorite": "Phosphorite",
+
+  "item.mi_biotech.blue_algae": "Blue Algae",
+  "item.mi_biotech.brown_algae": "Brown Algae",
+  "item.mi_biotech.green_algae": "Green Algae",
+
+  "itemGroup.mi_biotech.group": "Modern Industrialization: Biotech"
+}
