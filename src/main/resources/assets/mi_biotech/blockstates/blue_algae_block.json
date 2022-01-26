@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "mi_biotech:block/blue_algae_block" }
+    "": { "model": "biotech_horizons:block/blue_algae_block" }
   }
 }

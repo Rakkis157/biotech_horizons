@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mi_biotech:blue_algae_block",
-    "mi_biotech:brown_algae_block",
-    "mi_biotech:green_algae_block"
+    "biotech_horizons:blue_algae_block",
+    "biotech_horizons:brown_algae_block",
+    "biotech_horizons:green_algae_block"
   ]
 }

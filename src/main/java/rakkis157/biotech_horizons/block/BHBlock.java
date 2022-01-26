@@ -1,4 +1,4 @@
-package rakkis157.mi_biotech.block;
+package rakkis157.biotech_horizons.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -9,10 +9,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import rakkis157.mi_biotech.MIBiotech;
-import rakkis157.mi_biotech.item.MIBItemGroup;
+import rakkis157.biotech_horizons.BiotechHorizons;
+import rakkis157.biotech_horizons.item.BHItemGroup;
 
-public class MIBBlock {
+public class BHBlock {
 
     // Algae Blocks
     public static final Block BLUE_ALGAE_BLOCK = algaeBlock("blue");
@@ -33,16 +33,16 @@ public class MIBBlock {
     }
 
     private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block, MIBItemGroup.MI_BIOTECH);
-        return Registry.register(Registry.BLOCK, new Identifier(MIBiotech.MOD_ID, name), block);
+        registerBlockItem(name, block, BHItemGroup.MI_BIOTECH);
+        return Registry.register(Registry.BLOCK, new Identifier(BiotechHorizons.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup group){
-        return Registry.register(Registry.ITEM, new Identifier(MIBiotech.MOD_ID, name),
+        return Registry.register(Registry.ITEM, new Identifier(BiotechHorizons.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)));
     }
 
     public static void init(){
-        System.out.println(MIBiotech.MOD_NAME + " Blocks Initialized");
+        System.out.println(BiotechHorizons.MOD_NAME + " Blocks Initialized");
     }
 }

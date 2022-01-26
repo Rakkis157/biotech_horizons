@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "mi_biotech:blue_algae"
+      "item": "biotech_horizons:green_algae"
     }
   },
   "result": {
-    "item": "mi_biotech:blue_algae_block"
+    "item": "biotech_horizons:green_algae_block"
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "mi_biotech:block/phosphorite" }
+    "": { "model": "biotech_horizons:block/phosphorite" }
   }
 }

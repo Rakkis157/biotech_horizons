@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mi_biotech:brown_algae_block"
+          "name": "biotech_horizons:brown_algae_block"
         }
       ]
     }

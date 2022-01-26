@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mi_biotech:phosphorite"
+          "name": "biotech_horizons:blue_algae_block"
         }
       ]
     }

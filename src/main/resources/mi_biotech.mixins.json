@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "rakkis157.mi_biotech.mixin",
+  "package": "rakkis157.biotech_horizons.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
-    "MIBiotechMixin"
+    "BHMixin"
   ],
   "injectors": {
     "defaultRequire": 1
