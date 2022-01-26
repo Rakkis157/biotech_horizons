@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "mi_biotech",
+  "id": "biotech_horizons",
   "version": "${version}",
 
   "name": "Modern Industrialization: Biotech",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/mi_biotech/miblogo.png",
+  "icon": "assets/biotech_horizons/miblogo.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "rakkis157.mi_biotech.MIBiotech"
+      "rakkis157.biotech_horizons.BiotechHorizons"
     ]
   },
   "mixins": [
-    "mi_biotech.mixins.json"
+    "biotech_horizons.mixins.json"
   ],
 
   "depends": {
