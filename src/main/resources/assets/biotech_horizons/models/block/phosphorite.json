@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "mi_biotech:block/phosphorite"
+    "all": "biotech_horizons:block/phosphorite"
   }
 }

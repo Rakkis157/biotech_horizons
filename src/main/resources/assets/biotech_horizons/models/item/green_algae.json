@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mi_biotech:item/green_algae"
+    "layer0": "biotech_horizons:item/green_algae"
   }
 }

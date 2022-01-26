@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "mi_biotech:block/green_algae_block"
+    "all": "biotech_horizons:block/green_algae_block"
   }
 }
